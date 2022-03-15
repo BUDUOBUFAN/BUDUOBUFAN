@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mp-photo-album": "/pages/index/index",
+    "Searchinput":"../../components/Searchinput/Searchinput"
+  }
+}

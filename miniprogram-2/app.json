@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/goods_list/goods_list",
+    "pages/goods_detail/goods_detail",
+    "pages/cart/cart",
+    "pages/collect/collect",
+    "pages/order/order",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/feedback/feedback",
+    "pages/login/login",
+    "pages/auth/auth",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1296DB",
+    "navigationBarTitleText": "志刚小百货",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#8A8A8A",
+    "selectedColor": "#1296DB",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/首页.png",
+        "selectedIconPath": "icons/首页~.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "icons/分类.png",
+        "selectedIconPath": "icons/分类~.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "icons/购物车.png",
+        "selectedIconPath": "icons/购物车~.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "icons/我的.png",
+        "selectedIconPath": "icons/我的~.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

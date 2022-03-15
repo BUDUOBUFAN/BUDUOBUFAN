@@ -1,0 +1,23 @@
+view{
+    /* 使用主题颜色 */
+    color:var(--themeColor);
+}
+
+.container1{
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 view{
+    display: flex;
+    width: 100vw;
+    border-radius: 2vw;
+    background-color: #eaeaea;
+}
+
+.container1 view image{
+    width:100vw;
+    
+}
